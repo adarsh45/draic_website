@@ -138,8 +138,8 @@ h1{
     max-width: 100%;
 }
 .carousel{
-    margin: 8em 0;
-    width: auto;
+    /* margin: 8em 0; */
+    /* width: auto; */
 }
 
 #carousel-title{
@@ -147,6 +147,51 @@ h1{
     font-size: 1.8em;
     text-align: center;
     color: #ffffff;
+}
+
+/* recent updates */
+.recent-updates{
+    margin: 240px 0 60px;
+    /* background-image: url('../img/discussions.webp'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    /* padding: 2000dp 0; */
+}
+#recent-1{
+    background-image: url('../img/slider_1.png');
+}
+#recent-2{
+    background-image: url('../img/discussions.webp');
+}
+.recent-updates p{
+   font-family: "ethnocentricregular", "Helvetica";
+   color: #ffffff;
+   size: 2em;
+   position: absolute;
+   /* left: 8em; */
+   padding: 0;
+   margin: 0;
+}
+
+#recent-1 .text-large{
+    margin: auto 0 ;
+    font-size: 1.6em;
+    /* left: 4em; */
+    top: 10em;
+}
+
+.text-small{
+    bottom: 8em;
+    font-size: 1.4em;
+    left: 6em;
+}
+.text-large{
+    bottom: 2em;
+    font-size: 2em;
+    left: 4em;
 }
 
 /* about us section */
@@ -175,7 +220,8 @@ h1{
 .about-para{
     font-family: sans-serif;
     font-size: 1.4em;
-    text-align: start;
+    text-align: center;
+    margin: auto 0;
     padding: 0.8em 0.2em;
 }
 .about-image-right{

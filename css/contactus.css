@@ -24,14 +24,33 @@ body{
 .row#social .col-3{
     text-align: center;
 }
+/* turquoise */
+.container input{
+  background-color:turquoise;   
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  font-size: 20px;
+  padding-bottom: 16px;
+  margin-bottom: 52px;
+  color: #111;
+  border-bottom: 2px solid black;
+}
+.container textarea{
+  background-color: turquoise;
+  font-size: 20px;
+  padding-bottom: 16px;
+  margin-bottom: 32px;
+  border: 2px solid black;
+}
 
 .card{
-    background-color: turquoise;
+    background-color:turquoise;
     margin-top: 20px;
     border-radius: 20px;
     margin: 20px;
 }
-h4#title{
+h2#title{
     font-family: "ethnocentricregular", "Helvetica";
 }
 form{
